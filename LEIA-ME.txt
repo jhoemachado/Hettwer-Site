@@ -1,0 +1,25 @@
+SITE HETTWER MÁRMORES E GRANITOS
+
+COMO PUBLICAR
+1. Acesse o painel da hospedagem (cPanel, Hostinger, Locaweb etc.) e abra o Gerenciador de Arquivos.
+2. Entre na pasta pública do domínio (geralmente public_html, www ou htdocs).
+3. Envie TODO o conteúdo desta pasta (index.html, assets, favicons, robots.txt e .htaccess).
+   O arquivo index.html precisa ficar direto na pasta pública, não dentro de outra pasta.
+4. Abra o endereço do seu domínio para conferir.
+
+COMO EDITAR
+- Telefone, e-mail e endereço: assets/js/main.js, no começo do arquivo (objeto CONTATO).
+- Instagram e Facebook: assets/js/main.js, objeto REDES. Cole o link completo do perfil.
+  O ícone só aparece quando há link.
+- Textos: index.html.
+- Cores, fontes e espaçamentos: assets/css/style.css (variáveis no começo do arquivo).
+- Fotos: pasta assets/img. Para trocar, mantenha o mesmo nome do arquivo.
+
+OBSERVAÇÕES
+- O formulário de orçamento monta uma mensagem para copiar ou abrir no WhatsApp. Ele não envia e-mail sozinho.
+- Os botões "Ver no mapa" e "Traçar rota" buscam pelo nome da empresa e a cidade no Google Maps.
+  Para apontar para o endereço exato, troque o texto da busca nos links do cartão "Como chegar" no index.html.
+- As fontes vêm do Google Fonts, então o site precisa de internet para exibi-las como no projeto.
+- Quando o domínio estiver definido, vale adicionar no <head> do index.html as linhas
+  <link rel="canonical" href="https://SEU-DOMINIO/"> e <meta property="og:image" content="https://SEU-DOMINIO/assets/img/sala-marmore.jpg">
+  e <meta property="og:url" content="https://SEU-DOMINIO/"> para as prévias de WhatsApp e redes sociais.
